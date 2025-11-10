@@ -1,9 +1,9 @@
 {
     "id": "C8E95A65",
-    "path": "~/20261110_Jornades_IDISBA/poster_plataforma_2026.qmd",
-    "project_path": "poster_plataforma_2026.qmd",
+    "path": "~/20261110_Jornades_IDISBA/poster_plataforma_2025.qmd",
+    "project_path": "poster_plataforma_2025.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "531450092",
     "contents": "",
     "dirty": false,
     "created": 1762814669883.0,
@@ -17,11 +17,11 @@
         "scrollLine": "113"
     },
     "folds": "",
-    "lastKnownWriteTime": 1762815159,
+    "lastKnownWriteTime": 1762817589,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1762815159362,
+    "last_content_update": 1762817589,
     "read_only": false,
     "read_only_alternatives": []
 }
