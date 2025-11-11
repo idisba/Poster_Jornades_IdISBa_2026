@@ -25,7 +25,7 @@ editor_options:
 
 La **reproductibilitat** és el grau de concordança entre mesuraments independents realitzats amb el mateix mètode i material, però en condicions diferents.
 
-En **bioinformàtica**, la reproductibilitat és pot entendre com la capacitat d’utilitzar els materials d’un estudi anterior (com ara dades, codi i documentació) per regenerar els resultats, incloent figures i taules, amb l’objectiu de confirmar les conclusions de l’estudi.
+En **bioinformàtica**, la reproductibilitat es pot entendre com la capacitat d’utilitzar els materials d’un estudi anterior (com ara dades, codi i documentació) per regenerar els resultats, incloent figures i taules, amb l’objectiu de confirmar les conclusions de l’estudi.
 
 Garantir la reproductibilitat és essencial en un camp on el volum de dades és immens, el programari evoluciona ràpidament i la diversitat d’entorns de programació és elevada. Sense un control rigorós de tots aquests punts, petites variacions poden alterar les conclusions i comprometre seriosament la recerca.
 
@@ -315,7 +315,7 @@ p
 
 ## Control de l'entorn
 
-Els canvis i/o actualitzacions en el software poden implicar canvis en algoritmes que impedeixen la reproductibilitat dels resulats.
+Els canvis i/o actualitzacions en el software poden implicar canvis en algoritmes que impedeixen la reproductibilitat dels resultats.
 
 Per evitar-ho, s’han implementat diferents eines que permeten capturar i fixar l’estat de l’entorn: **Docker**, **renv** i **sessionInfo()**
 
@@ -368,7 +368,7 @@ ggplot(nivells, aes(x = ordre, y = reorder(etiqueta, ordre))) +
 
 ::: {.callout-note icon="false" title="🖀"}
 
-Aquest póster s'ha generat integrament amb Quarto, des del text fins al codi QR. Si vols aprendre com, posa't en contacte amb nosaltres.
+Aquest pòster s'ha generat integrament amb Quarto, des del text fins al codi QR. Si vols aprendre com, posa't en contacte amb nosaltres.
 
 ![](images/qrcode-poster.svg){fig-align="center" width="270"}
 :::
