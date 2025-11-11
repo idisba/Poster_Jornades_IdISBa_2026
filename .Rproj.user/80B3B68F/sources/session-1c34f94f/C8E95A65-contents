@@ -42,17 +42,17 @@ digraph cdoi {
 
   # Nodes principals
   Control  [label=<
-    <b>☝Control</b><br/><font point-size='14'>Gestió i traçabilitat</font>
+    <b>☝Control</b><br/><font point-size='16'>Gestió i traçabilitat</font>
   >,
   shape=rectangle, fillcolor=\"#E0F2FE\", color=\"#0284C7\", width=1.6]
 
   DataIN [label=<
-    <b>📂Data in</b><br/><font point-size='14'>Dades originals</font>
+    <b>📂Data in</b><br/><font point-size='16'>Dades originals</font>
   >,
   fillcolor=\"#DCFCE7\", color=\"#16A34A\"]
 
   Codi [label=<
-    <b>💻 Codi</b><br/><font point-size='14'>Scripts, pipelines</font>
+    <b>💻 Codi</b><br/><font point-size='16'>Scripts, pipelines</font>
   >,
   fillcolor=\"#F3E8FF\", color=\"#9333EA\"]
 

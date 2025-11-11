@@ -133,18 +133,18 @@
       #set align(center)
       #set text({ 53pt })
       #show: smallcaps
-      #v(62pt, weak: true)
+      #v(52pt, weak: true)
       #if it.numbering != none { numbering("I.", deepest); h(34pt, weak: true) }
       #it.body
-      #v(62pt, weak: true)
+      #v(40pt, weak: true)
       #line(length: 100%)
     ] else if it.level == 2 [
       #set text(style: "italic")
       #set text({ 45pt })
-      #v(45pt, weak: true)
+      #v(40pt, weak: true)
       #if it.numbering != none { numbering("i.", deepest); h(35pt, weak: true) }
       #it.body
-      #v(20pt, weak: true)
+      #v(40pt, weak: true)
     ] else [
       #if it.level == 3 { numbering("1)", deepest); [ ] }
       _#(it.body):_
@@ -178,8 +178,8 @@ v(space_after_header)
 
   // Columns of content
   show: columns.with(num_columns, gutter: 64pt)
-  set par(justify: true, first-line-indent: 0em,leading: 0.80em)
-  show par: set block(spacing: 1.7em)
+  set par(justify: true, first-line-indent: 0em,leading: 0.82em)
+  show par: set block(spacing: 1.6em)
 
   if keywords != () [
       #set text(24pt, weight: 400)
