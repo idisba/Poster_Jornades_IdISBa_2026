@@ -327,7 +327,7 @@ library(tibble)
 
 nivells <- tribble(
   ~ordre, ~etiqueta,                                       ~desc,                                                                 ~icona,
-  1,      "Versions\nsoftware",                    "Intormació sessió",                          "🛴️",
+  1,      "Versions\nsoftware",                    "Informació sessió",                          "🛴️",
   2,      "renv",                   "Aïllament de paquets",           "🚗",
   3,      "Docker",    "Entorn complet\nportable",               "🚀"
 )
