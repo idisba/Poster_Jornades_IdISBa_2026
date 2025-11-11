@@ -176,7 +176,7 @@ print(info$modify_at)
 
 ```
 
-```{r,echo=F,warning=F,message=F,fig.width=20, fig.height=5, dpi=900}
+```{r,echo=F,warning=F,message=F,fig.width=20, fig.height=7, dpi=900}
 library(dplyr)
 library(ggplot2)
 library(lubridate)
@@ -367,6 +367,7 @@ ggplot(nivells, aes(x = ordre, y = reorder(etiqueta, ordre))) +
 -   Des de la plataforma oferim **formació** específica en aquest àmbit.\
 
 ::: {.callout-note icon="false" title="🖀"}
+
 Aquest póster s'ha generat integrament amb Quarto, des del text fins al codi QR. Si vols aprendre com, posa't en contacte amb nosaltres.
 
 ![](images/qrcode-poster.svg){fig-align="center" width="270"}

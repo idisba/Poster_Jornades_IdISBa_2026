@@ -39,7 +39,7 @@
   // ========
   paper: "a0",
   flipped: true,
-  body_font_size: "32",
+  body_font_size: "33",
   keywords: (),
   num_columns: "3",
   left_title_column_size: "0",
@@ -119,9 +119,9 @@
 
   // Configure headings, equations, etc.
   set math.equation(numbering: "(1)")
-  show math.equation: set block(spacing: 0.65em)
-  set enum(indent: 10pt, body-indent: 9pt)
-  set list(indent: 10pt, body-indent: 9pt)
+  show math.equation: set block(spacing: 0.7em)
+  set enum(indent: 15pt, body-indent: 10pt)
+  set list(indent: 15pt, body-indent: 10pt)
 
   set heading(numbering: "I.A.1.")
   show heading: it => locate(loc => {
@@ -131,20 +131,20 @@
     set text(24pt, weight: 400)
     if it.level == 1 [
       #set align(center)
-      #set text({ 52pt })
+      #set text({ 53pt })
       #show: smallcaps
-      #v(70pt, weak: true)
+      #v(62pt, weak: true)
       #if it.numbering != none { numbering("I.", deepest); h(34pt, weak: true) }
       #it.body
-      #v(70pt, weak: true)
+      #v(62pt, weak: true)
       #line(length: 100%)
     ] else if it.level == 2 [
       #set text(style: "italic")
       #set text({ 45pt })
-      #v(60pt, weak: true)
+      #v(45pt, weak: true)
       #if it.numbering != none { numbering("i.", deepest); h(35pt, weak: true) }
       #it.body
-      #v(30pt, weak: true)
+      #v(20pt, weak: true)
     ] else [
       #if it.level == 3 { numbering("1)", deepest); [ ] }
       _#(it.body):_
@@ -178,8 +178,8 @@ v(space_after_header)
 
   // Columns of content
   show: columns.with(num_columns, gutter: 64pt)
-  set par(justify: true, first-line-indent: 0em,leading: 0.85em)
-  show par: set block(spacing: 1.5em)
+  set par(justify: true, first-line-indent: 0em,leading: 0.80em)
+  show par: set block(spacing: 1.7em)
 
   if keywords != () [
       #set text(24pt, weight: 400)
